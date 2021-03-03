@@ -1,0 +1,130 @@
+/*****CLASS SELECTORS*****/
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+.fas {margin-bottom: 2rem;}
+
+.fas:hover{color:#ff4c68;}
+
+.carousel-item{padding: 7% 15%;}
+
+/* Need a circle image, use border radius 100% */
+
+.test-img {width: 30%;
+margin: 10px;
+    border-radius: 100%;}
+/* Element Selectors */
+body {font-family: 'Montserrat', sans-serif; }
+
+h1{font-family: 'Montserrat', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+font-weight: 900;}
+
+h2{font-family: 'Montserrat', sans-serif; 
+font-weight: bold;
+line-height: 1.5;
+font-size: 2.5rem;}
+
+
+h3{font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 1.5rem;}
+
+p{color:#8f8f8f}
+
+/*****ID SELECTORS*****/
+
+#features{background-color: #fff;
+text-align: center;
+padding: 70px;
+position: relative;
+z-index: 1;
+}
+
+#title {background-color: #ff4c68;
+color: #fff;
+}
+
+#press{background-color: #ff4c68;
+text-align: center;
+padding-bottom: 3%;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {padding: 0 0 4.5rem;
+}
+
+.navbar-brand {font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+
+}
+
+.nav-item{padding: 0 18px;
+    }
+
+.nav-link {font-size: 1.2rem;
+    font-weight: lighter;
+    
+}
+
+.press-logo{width: 15%;
+    margin: 20px 20px 50px;}
+    
+/* BUTTONS */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/* IMAGE SECTION */
+
+ .title-image{
+     width: 60%;
+  
+     transform: rotate(25deg);
+     position: absolute;
+     left:20%;
+ }
+
+ /* Testimonials */
+
+ #testimonials {
+     
+     text-align: center;
+     background-color: #ff4c68;
+     color: #fff;
+  margin-top:100px;}
+
+  /* Pricing Section */
+  #pricing{padding: 50px;
+text-align: center;}
+  
+  .pricing-column{padding: 3% 3%;}
+
+  /* MEDIA QUERY SECTION */
+  @media (max-width:1028px)
+  {
+
+    #title{text-align: center;}
+
+    .title-image{position: static;
+    transform: rotate(0);}
+  }
+
+  /* Call to Action/Bottom-Container */
+
+.bottom-container { background-color: #ff4c68;
+height: 300px;
+text-align: center;}
+
+.cta-title{
+    font-size: 3rem;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: #fff;
+padding:50px 80px 30px;}
